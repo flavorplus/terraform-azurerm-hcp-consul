@@ -26,13 +26,13 @@ locals {
       description = "Consul LAN Serf (tcp)"
       rule_name   = "consul-lan-tcp"
       port        = 8301
-      protocol    = "tcp"
+      protocol    = "Tcp"
     },
     {
       description = "Consul LAN Serf (udp)"
       rule_name   = "consul-lan-udp"
       port        = 8301
-      protocol    = "udp"
+      protocol    = "Udp"
     },
   ]
 
