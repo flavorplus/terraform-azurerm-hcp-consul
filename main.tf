@@ -7,7 +7,7 @@ terraform {
     }
     azuread = {
       source  = "hashicorp/azuread"
-      version = "~> 2.14"
+      version = "~> 2.30"
     }
     hcp = {
       source  = "hashicorp/hcp"
